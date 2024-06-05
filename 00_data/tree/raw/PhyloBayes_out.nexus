@@ -1,0 +1,172 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=70;
+	taxlabels
+	Agelas_schmidti_cdhit_ASCH
+	Amphimedon_queenslandica_cdhit
+	Aplysina_aerophoba_cdhit_AAER
+	Aurelia_aurita_pep_cdhit_AAUR
+	Baikalospongia_bacillifera_cdh
+	Bolinopsis_ashleyi_pep_cdhit_B
+	Chondrilla_caribensis_cdhit_CC
+	Chondrocladia_roberballardi_cd
+	Clathrina_coriacea_cdhit_CCOR
+	Cliona_varians_cdhit_CVAR
+	Corticium_candelabrum_cdhit_CC
+	Crambe_crambe_cdhit_CCRA
+	Craniella_infrequens_cdhit_CIN
+	Crella_elegans_cdhit_CELE
+	Cymbastela_concentrica_cdhit_C
+	Cymbaxinella_damicornis_cdhit_
+	Dendrilla_antarctica_cdhit_DAN
+	Ephydatia_muelleri_cdhit_Eph
+	Eunapius_fragilis_cdhit_EFRA
+	Geodia_atlantica_cdhit_GANT
+	Geodia_barretti_cdhit_GBAR
+	Geodia_hentscheli_cdhit_GHEN
+	Geodia_macandrewi_cdhit_GMAC
+	Geodia_parva_cdhit_GPAR
+	Geodia_phlegrai_cdhit_GPHL
+	Halichondria_panicea_cdhit_HPA
+	Haliclona_penicillata_cdhit_HP
+	Halisarca_caerulea_cdhit_HCAE
+	Halisarca_dujardini_cdhit_HDUJ
+	Homo_sapiens_pep_cdhit_HSAP
+	Iophon_unicorne_cdhit_IUNI
+	Ircinia_fasciculata_cdhit_IFAS
+	Isodyctia_sp_cdhit_IsSP
+	Kirkpatrickia_variolosa_cdhit_
+	Latrunculia_apicalis_cdhit_LAP
+	Leucetta_giribeti_cdhit_LGIR
+	Lottia_gigantea_pep_cdhit_LGIG
+	Lubomirskia_abietina_cdhit_LAB
+	Lubomirskia_baicalensis_A8_cdh
+	Mycale_acerata_cdhit_MACE
+	Mycale_laevis_cdhit_MLAE
+	Mycale_lingua_cdhit_MLIN
+	Mycale_phyllophila_cdhit_MPHY
+	Mycale_tridens_cdhit_MTRI
+	Nematostella_vectensis_cdhit_N
+	Oscarella_pearsei_cdhit_OPEA
+	Petrosia_ficiformis_cdhit_PFIC
+	Phakellia_robusta_cdhit_PROB
+	Phakellia_ventilabrum_cdhit_PV
+	Phorbas_areolatus_cdhit_PARE
+	Pleurobrachia_bachei_pep_cdhit
+	Poecillastra_compressa_cdhit_P
+	Polymastia_invaginata_cdhit_PI
+	Prosuberites_sp_cdhit_PrSP
+	Pseudospongosorites_suberitoid
+	Rossella_fibulata_cdhit_RFIB
+	Scopalina_ruetzleri_cdhit_SRUE
+	Scopalina_sp_cdhit_ScSP
+	Spheciospongia_vesparium_cdhit
+	Spongia_officinalis_cdhit_SOFF
+	Spongilla_lacustris_cdhit_SLAC
+	Stelletta_normani_cdhit_SNOR
+	Stryphnus_fortis_pep_cdhit_SFO
+	Sycon_ciliatum_cdhit_SCIL
+	Sycon_coactum_cdhit_SCOA
+	Sympagella_nux_cdhit_SNUX
+	Tedania_anhelans_cdhit_TANH
+	Tethya_wilhelma_cdhit_TWIL
+	Vaceletia_sp_cdhit_VaSP
+	Vazella_pourtalesi_cdhit_VPOU
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Agelas_schmidti_cdhit_ASCH:0.119066,Cymbaxinella_damicornis_cdhit_:0.123658,((Polymastia_invaginata_cdhit_PI:0.289993,((Tethya_wilhelma_cdhit_TWIL:0.223006,(Spheciospongia_vesparium_cdhit:0.215002,Cliona_varians_cdhit_CVAR:0.024195)[&label=1]:0.23252)[&label=1]:0.031605,((Prosuberites_sp_cdhit_PrSP:0.139475,(Pseudospongosorites_suberitoid:0.120039,Halichondria_panicea_cdhit_HPA:0.18505)[&label=1]:0.088511)[&label=1]:0.102684,(((Isodyctia_sp_cdhit_IsSP:0.189135,(Latrunculia_apicalis_cdhit_LAP:0.13605,(Iophon_unicorne_cdhit_IUNI:0.159753,(Tedania_anhelans_cdhit_TANH:0.144954,(Kirkpatrickia_variolosa_cdhit_:0.088261,(Phorbas_areolatus_cdhit_PARE:0.060309,Crella_elegans_cdhit_CELE:0.091084)[&label=1]:0.030337)[&label=1]:0.030335)[&label=1]:0.024305)[&label=1]:0.036854)[&label=1]:0.0468)[&label=1]:0.01999,Crambe_crambe_cdhit_CCRA:0.183271)[&label=1]:0.023924,((Mycale_phyllophila_cdhit_MPHY:0.121151,((Mycale_lingua_cdhit_MLIN:0.095393,Mycale_laevis_cdhit_MLAE:0.082403)[&label=1]:0.015945,(Mycale_tridens_cdhit_MTRI:0.006123,Mycale_acerata_cdhit_MACE:0.005429)[&label=1]:0.089203)[&label=1]:0.016715)[&label=1]:0.117929,Chondrocladia_roberballardi_cd:0.187457)[&label=1]:0.090795)[&label=1]:0.193177)[&label=1]:0.018357)[&label=1]:0.049471)[&label=1]:0.022484,((Phakellia_ventilabrum_cdhit_PV:0.067298,(Phakellia_robusta_cdhit_PROB:0.041568,Cymbastela_concentrica_cdhit_C:0.04696)[&label=1]:0.038781)[&label=1]:0.193738,(((Poecillastra_compressa_cdhit_P:0.082738,((Stryphnus_fortis_pep_cdhit_SFO:0.03654,Stelletta_normani_cdhit_SNOR:0.02831)[&label=1]:0.088278,(Geodia_phlegrai_cdhit_GPHL:0.097284,((Geodia_macandrewi_cdhit_GMAC:0.056692,((Geodia_parva_cdhit_GPAR:0.002481,Geodia_hentscheli_cdhit_GHEN:0.00207)[&label=1]:0.034402,Geodia_barretti_cdhit_GBAR:0.029368)[&label=1]:0.029511)[&label=1]:0.034853,Geodia_atlantica_cdhit_GANT:0.080073)[&label=1]:0.019486)[&label=1]:0.053536)[&label=1]:0.062027)[&label=1]:0.082856,Craniella_infrequens_cdhit_CIN:0.19079)[&label=1]:0.277702,(((Scopalina_sp_cdhit_ScSP:0.07844,Scopalina_ruetzleri_cdhit_SRUE:0.11401)[&label=1]:0.308629,((Spongilla_lacustris_cdhit_SLAC:0.071264,Eunapius_fragilis_cdhit_EFRA:0.094952)[&label=1]:0.016072,(Ephydatia_muelleri_cdhit_Eph:0.055147,(Lubomirskia_abietina_cdhit_LAB:0.002938,(Lubomirskia_baicalensis_A8_cdh:0.004835,Baikalospongia_bacillifera_cdh:0.015851)[&label=1]:0.010748)[&label=1]:0.049644)[&label=1]:0.049859)[&label=1]:0.509902)[&label=1]:0.083551,(((((Vazella_pourtalesi_cdhit_VPOU:0.054618,Sympagella_nux_cdhit_SNUX:0.106876)[&label=1]:0.033443,Rossella_fibulata_cdhit_RFIB:0.044826)[&label=1]:2.36775,(((Oscarella_pearsei_cdhit_OPEA:0.328259,Corticium_candelabrum_cdhit_CC:0.388041)[&label=1]:0.319231,((Sycon_coactum_cdhit_SCOA:0.105384,Sycon_ciliatum_cdhit_SCIL:0.117388)[&label=1]:0.32944,(Leucetta_giribeti_cdhit_LGIR:0.184039,Clathrina_coriacea_cdhit_CCOR:0.170629)[&label=1]:0.09522)[&label=1]:0.667437)[&label=1]:0.088108,((Pleurobrachia_bachei_pep_cdhit:0.177693,Bolinopsis_ashleyi_pep_cdhit_B:0.191577)[&label=1]:1.75093,((Lottia_gigantea_pep_cdhit_LGIG:0.578289,Homo_sapiens_pep_cdhit_HSAP:0.59466)[&label=1]:0.256073,(Nematostella_vectensis_cdhit_N:0.439529,Aurelia_aurita_pep_cdhit_AAUR:0.695527)[&label=1]:0.122278)[&label=1]:0.150398)[&label=1]:0.209979)[&label=1]:0.500891)[&label=1]:0.60628,(((Vaceletia_sp_cdhit_VaSP:0.071092,(Spongia_officinalis_cdhit_SOFF:0.060743,Ircinia_fasciculata_cdhit_IFAS:0.066001)[&label=1]:0.033323)[&label=1]:0.096065,Dendrilla_antarctica_cdhit_DAN:0.212235)[&label=1]:0.513752,(((Halisarca_dujardini_cdhit_HDUJ:0.192074,Halisarca_caerulea_cdhit_HCAE:0.085624)[&label=1]:0.034652,Chondrilla_caribensis_cdhit_CC:0.104369)[&label=1]:0.240616,Aplysina_aerophoba_cdhit_AAER:0.252323)[&label=1]:0.671132)[&label=0.99]:0.041676)[&label=1]:0.369693,(Haliclona_penicillata_cdhit_HP:0.370961,(Petrosia_ficiformis_cdhit_PFIC:0.253339,Amphimedon_queenslandica_cdhit:0.361013)[&label=1]:0.118544)[&label=1]:0.271066)[&label=1]:0.083516)[&label=1]:0.060683)[&label=1]:0.023156)[&label=1]:0.045435)[&label=1]:0.131449);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=345;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=381;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=10;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
