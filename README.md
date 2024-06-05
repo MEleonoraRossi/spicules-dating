@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/810862000.svg)](https://zenodo.org/doi/10.5281/zenodo.11488992)
+
 # Independent origins of spicules reconcile the evolutionary history of sponges (Porifera)
 
 ## Introduction
