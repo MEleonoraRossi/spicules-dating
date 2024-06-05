@@ -1,0 +1,827 @@
+cpu-bind=MASK - bp1-compute130, task  0  0 [49913]: mask 0x1ffffffe1ffffffe set
+
+AAML in paml version 4.9i, September 2018
+ns = 69  	ls = 9774
+Reading sequences, sequential format..
+Reading seq # 1: Agelas_schmidti_cdhit_ASCH       Reading seq # 2: Amphimedon_queenslandica_cdhit_AQUE       Reading seq # 3: Aplysina_aerophoba_cdhit_AAER       Reading seq # 4: Aurelia_aurita_pep_cdhit_AAUR       Reading seq # 5: Baikalospongia_bacillifera_cdhit_BBAC       Reading seq # 6: Bolinopsis_ashleyi_pep_cdhit_BASH       Reading seq # 7: Chondrilla_caribensis_cdhit_CCAR       Reading seq # 8: Chondrocladia_roberballardi_cdhit_CROB       Reading seq # 9: Clathrina_coriacea_cdhit_CCOR       Reading seq #10: Cliona_varians_cdhit_CVAR       Reading seq #11: Corticium_candelabrum_cdhit_CCAN       Reading seq #12: Crambe_crambe_cdhit_CCRA       Reading seq #13: Craniella_infrequens_cdhit_CINF       Reading seq #14: Crella_elegans_cdhit_CELE       Reading seq #15: Cymbastela_concentrica_cdhit_CCON       Reading seq #16: Cymbaxinella_damicornis_cdhit_CDAM       Reading seq #17: Dendrilla_antarctica_cdhit_DANT       Reading seq #18: Ephydatia_muelleri_cdhit_Eph       Reading seq #19: Eunapius_fragilis_cdhit_EFRA       Reading seq #20: Geodia_atlantica_cdhit_GANT       Reading seq #21: Geodia_barretti_cdhit_GBAR       Reading seq #22: Geodia_hentscheli_cdhit_GHEN       Reading seq #23: Geodia_macandrewi_cdhit_GMAC       Reading seq #24: Geodia_parva_cdhit_GPAR       Reading seq #25: Geodia_phlegrai_cdhit_GPHL       Reading seq #26: Halichondria_panicea_cdhit_HPAN       Reading seq #27: Haliclona_penicillata_cdhit_HPEN       Reading seq #28: Halisarca_caerulea_cdhit_HCAE       Reading seq #29: Halisarca_dujardini_cdhit_HDUJ       Reading seq #30: Homo_sapiens_pep_cdhit_HSAP       Reading seq #31: Iophon_unicorne_cdhit_IUNI       Reading seq #32: Ircinia_fasciculata_cdhit_IFAS       Reading seq #33: Isodyctia_sp_cdhit_IsSP       Reading seq #34: Kirkpatrickia_variolosa_cdhit_KVAR       Reading seq #35: Latrunculia_apicalis_cdhit_LAPI       Reading seq #36: Leucetta_giribeti_cdhit_LGIR       Reading seq #37: Lottia_gigantea_pep_cdhit_LGIG       Reading seq #38: Lubomirskia_abietina_cdhit_LABI       Reading seq #39: Lubomirskia_baicalensis_A8_cdhit_LBAI       Reading seq #40: Mycale_acerata_cdhit_MACE       Reading seq #41: Mycale_laevis_cdhit_MLAE       Reading seq #42: Mycale_lingua_cdhit_MLIN       Reading seq #43: Mycale_phyllophila_cdhit_MPHY       Reading seq #44: Mycale_tridens_cdhit_MTRI       Reading seq #45: Nematostella_vectensis_cdhit_NVEC       Reading seq #46: Oscarella_pearsei_cdhit_OPEA       Reading seq #47: Petrosia_ficiformis_cdhit_PFIC       Reading seq #48: Phakellia_robusta_cdhit_PROB       Reading seq #49: Phakellia_ventilabrum_cdhit_PVEN       Reading seq #50: Phorbas_areolatus_cdhit_PARE       Reading seq #51: Pleurobrachia_bachei_pep_cdhit_PBAC       Reading seq #52: Poecillastra_compressa_cdhit_PCOM       Reading seq #53: Polymastia_invaginata_cdhit_PINV       Reading seq #54: Pseudospongosorites_suberitoides_cdhit_PSUB       Reading seq #55: Rossella_fibulata_cdhit_RFIB       Reading seq #56: Scopalina_ruetzleri_cdhit_SRUE       Reading seq #57: Scopalina_sp_cdhit_ScSP       Reading seq #58: Spheciospongia_vesparium_cdhit_SVES       Reading seq #59: Spongia_officinalis_cdhit_SOFF       Reading seq #60: Spongilla_lacustris_cdhit_SLAC       Reading seq #61: Stelletta_normani_cdhit_SNOR       Reading seq #62: Stryphnus_fortis_pep_cdhit_SFOR       Reading seq #63: Sycon_ciliatum_cdhit_SCIL       Reading seq #64: Sycon_coactum_cdhit_SCOA       Reading seq #65: Sympagella_nux_cdhit_SNUX       Reading seq #66: Tedania_anhelans_cdhit_TANH       Reading seq #67: Tethya_wilhelma_cdhit_TWIL       Reading seq #68: Vaceletia_sp_cdhit_VaSP       Reading seq #69: Vazella_pourtalesi_cdhit_VPOU       
+Sequences read..
+
+9774 site patterns read, 9947 sites
+Counting frequencies..
+
+    18768 bytes for distance
+  3127680 bytes for conP
+   312768 bytes for fhK
+  5000000 bytes for space
+
+TREE #  1
+
+419109120 bytes for conP, adjusted
+
+1 node(s) used for scaling (Yang 2000 J Mol Evol 51:423-432):
+ 72
+
+ntime & nrate & np:   135     0   136
+
+np =   136
+lnL0 = -384201.800405
+
+
+Round 1a: Paras (1) (e=5)
+Iterating by ming2
+Initial: fx= 384201.800405
+x=  0.50000
+
+  1 h-m-p  0.0000 0.0322 1505.5706 +Y    384159.008897  0 0.0000     7 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0026 Y     384158.907438  0 1.2303    11
+
+    0.561381         0:12
+
+Round 1b: Blengths (135, e=5)
+	lnL0 =    -384158.907438
+	Cycle  1: -359347.920892
+	Cycle  2: -356655.063393
+	Cycle  3: -356224.746015
+	Cycle  4: -356153.027502
+	Cycle  5: -356123.515114
+	Cycle  6: -356107.748469
+	Cycle  7: -356098.405048
+	Cycle  8: -356092.495875
+	Cycle  9: -356088.475632
+
+ 1:05
+
+
+Round 2a: Paras (1) (e=2.5)
+Iterating by ming2
+Initial: fx= 356088.475632
+x=  0.56138
+
+  1 h-m-p  0.0000 0.0090 5363.2540 +Y    355437.080473  0 0.0001    19 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0438 C     355407.204852  0 1.8661    23
+
+    0.903643         1:15
+
+Round 2b: Blengths (135, e=2.5)
+	lnL0 =    -355407.204852
+	Cycle  1: -355384.364854
+	Cycle  2: -355376.646337
+	Cycle  3: -355372.492773
+	Cycle  4: -355370.167155
+
+ 1:36
+
+
+Round 3a: Paras (1) (e=1.25)
+Iterating by ming2
+Initial: fx= 355370.167155
+x=  0.90364
+
+  1 h-m-p  0.0004 0.7889  60.9668 C     355369.914681  0 0.0001    30 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0001 Y     355369.914654  0 1.0029    34
+
+    0.911966         1:45
+
+Round 3b: Blengths (135, e=1.25)
+	lnL0 =    -355369.914654
+	Cycle  1: -355368.367032
+	Cycle  2: -355367.192057
+
+ 1:56
+
+
+Round 4a: Paras (1) (e=0.625)
+Iterating by ming2
+Initial: fx= 355367.192057
+x=  0.91197
+
+  1 h-m-p  0.0029 5.8282   8.2509 -Y    355367.187335  0 0.0001    42 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 Y     355367.187335  0 0.8870    46
+
+    0.913112         2:06
+
+Round 4b: Blengths (135, e=0.625)
+	lnL0 =    -355367.187335
+	Cycle  1: -355366.239505
+	Cycle  2: -355365.447245
+	Cycle  3: -355364.770250
+	Cycle  4: -355364.184419
+
+ 2:27
+
+
+Round 5a: Paras (1) (e=0.3125)
+Iterating by ming2
+Initial: fx= 355364.184419
+x=  0.91311
+
+  1 h-m-p  0.0040 8.0000   3.1475 -Y    355364.183730  0 0.0001    54 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 Y     355364.183730  0 0.4000    58
+
+    0.913550         2:38
+
+Round 5b: Blengths (135, e=0.3125)
+	lnL0 =    -355364.183730
+	Cycle  1: -355363.673194
+	Cycle  2: -355363.226927
+	Cycle  3: -355362.836836
+	Cycle  4: -355362.496391
+	Cycle  5: -355362.199868
+
+ 3:04
+
+
+Round 6a: Paras (1) (e=0.15625)
+Iterating by ming2
+Initial: fx= 355362.199868
+x=  0.91355
+
+  1 h-m-p  0.0040 8.0000   0.5196 -Y    355362.199849  0 0.0001    66
+
+    0.913623         3:10
+
+Round 6b: Blengths (135, e=0.15625)
+	lnL0 =    -355362.199849
+	Cycle  1: -355362.189848
+
+ 3:16
+
+
+Round 7a: Paras (1) (e=0.001)
+Iterating by ming2
+Initial: fx= 355362.189848
+x=  0.91362
+
+  1 h-m-p  0.0040 8.0000   0.0420 -Y    355362.189848  0 0.0001    74
+
+    0.913628         3:23
+
+Round 7b: Blengths (135, e=0.001)
+	lnL0 =    -355362.189848
+	Cycle  1: -355362.185249
+	Cycle  2: -355362.181656
+	Cycle  3: -355362.178812
+	Cycle  4: -355362.176550
+	Cycle  5: -355362.174742
+	Cycle  6: -355362.173289
+	Cycle  7: -355362.172116
+	Cycle  8: -355362.171164
+
+ 4:06
+
+
+Round 8a: Paras (1) (e=0.00025)
+Iterating by ming2
+Initial: fx= 355362.171164
+x=  0.91363
+
+  1 h-m-p  0.0040 8.0000   0.1497 -Y    355362.171163  0 0.0001    82
+
+    0.913648         4:12
+
+Round 8b: Blengths (135, e=0.00025)
+	lnL0 =    -355362.171163
+	Cycle  1: -355362.170387
+	Cycle  2: -355362.169750
+	Cycle  3: -355362.169227
+	Cycle  4: -355362.168794
+	Cycle  5: -355362.168435
+	Cycle  6: -355362.168136
+	Cycle  7: -355362.167887
+
+ 4:59
+
+
+Round 9a: Paras (1) (e=6.25e-05)
+Iterating by ming2
+Initial: fx= 355362.167887
+x=  0.91365
+
+  1 h-m-p  0.0040 8.0000   0.0511 -Y    355362.167887  0 0.0001    90
+
+    0.913655         5:05
+
+Round 9b: Blengths (135, e=6.25e-05)
+	lnL0 =    -355362.167887
+	Cycle  1: -355362.167678
+	Cycle  2: -355362.167502
+	Cycle  3: -355362.167354
+	Cycle  4: -355362.167229
+	Cycle  5: -355362.167124
+	Cycle  6: -355362.167034
+	Cycle  7: -355362.166958
+	Cycle  8: -355362.166893
+	Cycle  9: -355362.166838
+
+ 7:13
+
+
+Round 10a: Paras (1) (e=1.5625e-05)
+Iterating by ming2
+Initial: fx= 355362.166838
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0240 --Y   355362.166838  0 0.0001    99
+
+    0.913658         7:21
+
+Round 10b: Blengths (135, e=1.5625e-05)
+	lnL0 =    -355362.166838
+	Cycle  1: -355362.166791
+	Cycle  2: -355362.166751
+	Cycle  3: -355362.166717
+	Cycle  4: -355362.166687
+	Cycle  5: -355362.166662
+	Cycle  6: -355362.166641
+	Cycle  7: -355362.166622
+	Cycle  8: -355362.166607
+	Cycle  9: -355362.166593
+
+10:26
+
+
+Round 11a: Paras (1) (e=3.90625e-06)
+Iterating by ming2
+Initial: fx= 355362.166593
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0043 -C    355362.166593  0 0.0003   107 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 Y     355362.166593  0 0.4000   112
+
+    0.913659        10:37
+
+Round 11b: Blengths (135, e=3.90625e-06)
+	lnL0 =    -355362.166593
+	Cycle  1: -355362.166582
+	Cycle  2: -355362.166572
+	Cycle  3: -355362.166563
+	Cycle  4: -355362.166556
+	Cycle  5: -355362.166549
+	Cycle  6: -355362.166544
+	Cycle  7: -355362.166539
+	Cycle  8: -355362.166535
+	Cycle  9: -355362.166532
+
+14:09
+
+
+Round 12a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166532
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0046 -----C 355362.166532  0 0.0000   124 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 -C    355362.166532  0 0.1000   130
+
+    0.913659        14:25
+
+Round 12b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166532
+	Cycle  1: -355362.166529
+	Cycle  2: -355362.166527
+	Cycle  3: -355362.166524
+	Cycle  4: -355362.166523
+	Cycle  5: -355362.166521
+	Cycle  6: -355362.166520
+	Cycle  7: -355362.166518
+	Cycle  8: -355362.166517
+	Cycle  9: -355362.166517
+
+18:53
+
+
+Round 13a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166517
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0082 ----Y 355362.166517  0 0.0000   141 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 ------Y 355362.166517  0 0.0001   152
+
+    0.913659        19:12
+
+Round 13b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166517
+	Cycle  1: -355362.166516
+
+19:40
+
+
+Round 14a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166516
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0052 ---Y  355362.166516  0 0.0000   162 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 C     355362.166516  0 0.5847   167
+
+    0.913659        19:54
+
+Round 14b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166516
+	Cycle  1: -355362.166515
+
+20:22
+
+
+Round 15a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166515
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0046 -------C 355362.166515  0 0.0000   181 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 ------N 355362.166515  0 0.0001   192
+
+    0.913659        20:44
+
+Round 15b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166515
+	Cycle  1: -355362.166515
+
+21:07
+
+6 rounds of small improvement.
+
+Round 16a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166515
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0033 -Y    355362.166515  0 0.0001   200 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 -Y    355362.166515  0 0.1000   206
+
+    0.913660        21:19
+
+Round 16b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166515
+	Cycle  1: -355362.166514
+
+21:43
+
+7 rounds of small improvement.
+
+Round 17a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166514
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0082 ------------..  | 0/1
+  2 h-m-p  0.0160 8.0000   0.0005 ------------- | 0/1
+  3 h-m-p  0.0160 8.0000   0.0005 -------------
+
+    0.913660        22:27
+
+Round 17b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166514
+	Cycle  1: -355362.166514
+
+22:56
+
+8 rounds of small improvement.
+
+Round 18a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166514
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0005 --Y   355362.166514  0 0.0001   265
+
+    0.913660        23:04
+
+Round 18b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166514
+	Cycle  1: -355362.166513
+
+23:28
+
+9 rounds of small improvement.
+
+Round 19a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166513
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0004 Y     355362.166513  0 0.0007   273
+
+    0.913660        23:34
+
+Round 19b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166513
+	Cycle  1: -355362.166513
+
+24:03
+
+10 rounds of small improvement.
+
+Round 20a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166513
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0012 -Y    355362.166513  0 0.0003   282 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 -C    355362.166513  0 0.1000   288
+
+    0.913660        24:16
+
+Round 20b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166513
+	Cycle  1: -355362.166513
+
+24:45
+
+11 rounds of small improvement.
+
+Round 21a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166513
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0011 -C    355362.166513  0 0.0003   297 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 ----------N 355362.166513  0 0.0000   312
+
+    0.913660        25:06
+
+Round 21b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166513
+	Cycle  1: -355362.166513
+
+25:35
+
+12 rounds of small improvement.
+
+Round 22a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166513
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0009 -Y    355362.166513  0 0.0001   321
+
+    0.913660        25:43
+
+Round 22b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166513
+	Cycle  1: -355362.166512
+
+26:12
+
+13 rounds of small improvement.
+
+Round 23a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166512
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0003 C     355362.166512  0 0.0013   329
+
+    0.913659        26:18
+
+Round 23b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166512
+	Cycle  1: -355362.166512
+
+26:48
+
+14 rounds of small improvement.
+
+Round 24a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166512
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0027 -------C 355362.166512  0 0.0000   344 | 0/1
+  2 h-m-p  0.0160 8.0000   0.0000 ------Y 355362.166512  0 0.0000   355
+
+    0.913659        27:11
+
+Round 24b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166512
+	Cycle  1: -355362.166512
+
+27:38
+
+15 rounds of small improvement.
+
+Round 25a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166512
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0026 ----C 355362.166512  0 0.0000   367 | 0/1
+  2 h-m-p  0.0395 8.0000   0.0000 -------------N 355362.166512  0 0.0000   385
+
+    0.913659        28:05
+
+Round 25b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166512
+	Cycle  1: -355362.166512
+
+28:32
+
+16 rounds of small improvement.
+
+Round 26a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166512
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0024 -----C 355362.166512  0 0.0000   398 | 0/1
+  2 h-m-p  0.0160 8.0000   0.0000 -----Y 355362.166512  0 0.0000   408
+
+    0.913659        28:53
+
+Round 26b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166512
+	Cycle  1: -355362.166512
+
+29:24
+
+17 rounds of small improvement.
+
+Round 27a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166512
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0025 -C    355362.166512  0 0.0003   417 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 ---C  355362.166512  0 0.0063   425
+
+    0.913660        29:38
+
+Round 27b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166512
+	Cycle  1: -355362.166512
+
+30:07
+
+18 rounds of small improvement.
+
+Round 28a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166512
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0020 ----------C 355362.166512  0 0.0000   443 | 0/1
+  2 h-m-p  0.0160 8.0000   0.0000 ---N  355362.166512  0 0.0001   451
+
+    0.913660        30:30
+
+Round 28b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166512
+	Cycle  1: -355362.166512
+
+31:01
+
+19 rounds of small improvement.
+
+Round 29a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166512
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0021 -C    355362.166512  0 0.0003   460 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 --------C 355362.166512  0 0.0000   473
+
+    0.913659        31:21
+
+Round 29b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166512
+	Cycle  1: -355362.166512
+
+31:51
+
+20 rounds of small improvement.
+
+Round 30a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166512
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0017 -C    355362.166512  0 0.0003   482 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 --Y   355362.166512  0 0.0250   489
+
+    0.913660        32:05
+
+Round 30b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166512
+	Cycle  1: -355362.166511
+
+32:31
+
+21 rounds of small improvement.
+
+Round 31a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166511
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0016 -C    355362.166511  0 0.0003   498 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 -----C 355362.166511  0 0.0004   508
+
+    0.913660        32:47
+
+Round 31b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166511
+	Cycle  1: -355362.166511
+
+33:13
+
+22 rounds of small improvement.
+
+Round 32a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166511
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0016 ---C  355362.166511  0 0.0000   519 | 0/1
+  2 h-m-p  0.1206 8.0000   0.0000 C     355362.166511  0 0.1206   524
+
+    0.913660        33:27
+
+Round 32b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166511
+	Cycle  1: -355362.166511
+
+33:56
+
+23 rounds of small improvement.
+
+Round 33a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166511
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0012 -Y    355362.166511  0 0.0002   533 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 ------C 355362.166511  0 0.0001   544
+
+    0.913660        34:13
+
+Round 33b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166511
+	Cycle  1: -355362.166511
+
+34:44
+
+24 rounds of small improvement.
+
+Round 34a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166511
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0001 C     355362.166511  0 0.0040   552
+
+    0.913660        34:50
+
+Round 34b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166511
+	Cycle  1: -355362.166511
+
+35:20
+
+25 rounds of small improvement.
+
+Round 35a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166511
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0020 -Y    355362.166511  0 0.0003   561 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 Y     355362.166511  0 0.8690   566
+
+    0.913660        35:32
+
+Round 35b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166511
+	Cycle  1: -355362.166511
+
+36:02
+
+26 rounds of small improvement.
+
+Round 36a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166511
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0002 -Y    355362.166511  0 0.0003   575
+
+    0.913660        36:09
+
+Round 36b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166511
+	Cycle  1: -355362.166511
+
+36:38
+
+27 rounds of small improvement.
+
+Round 37a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166511
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0001 Y     355362.166511  0 0.0010   583
+
+    0.913660        36:45
+
+Round 37b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166511
+	Cycle  1: -355362.166511
+
+37:13
+
+28 rounds of small improvement.
+
+Round 38a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166511
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0009 --C   355362.166511  0 0.0001   593
+
+    0.913660        37:21
+
+Round 38b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166511
+	Cycle  1: -355362.166511
+
+37:50
+
+29 rounds of small improvement.
+
+Round 39a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166511
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0005 ---------Y 355362.166511  0 0.0000   610
+
+    0.913660        38:05
+
+Round 39b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166511
+	Cycle  1: -355362.166511
+
+38:35
+
+30 rounds of small improvement.
+
+Round 40a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166511
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0005 -Y    355362.166511  0 0.0003   619
+
+    0.913660        38:42
+
+Round 40b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166511
+	Cycle  1: -355362.166511
+
+39:07
+
+31 rounds of small improvement.
+
+Round 41a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166511
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0004 Y     355362.166511  0 0.0007   627
+
+    0.913660        39:13
+
+Round 41b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166511
+	Cycle  1: -355362.166511
+
+39:40
+
+32 rounds of small improvement.
+
+Round 42a: Paras (1) (e=1e-06)
+Iterating by ming2
+Initial: fx= 355362.166511
+x=  0.91366
+
+  1 h-m-p  0.0040 8.0000   0.0013 -C    355362.166511  0 0.0003   636 | 0/1
+  2 h-m-p  1.6000 8.0000   0.0000 -------C 355362.166511  0 0.0000   648
+
+    0.913660        39:59
+
+Round 42b: Blengths (135, e=1e-06)
+	lnL0 =    -355362.166511
+	Cycle  1: -355362.166511
+
+40:30
+
+lnL  = -355362.166511
+Out..
+lnL  = -355362.166511
+651 lfun, 0 eigenQcodon, 520980 P(t)
+Calculating SE's
+
+Warning: Hessian matrix may be unreliable for zero branch lengths
+
+Time used: 44:43

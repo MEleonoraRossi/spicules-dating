@@ -1,0 +1,13 @@
+seqfile = ../analyses/JTTMUT/tmp0001.txt
+treefile = ../analyses/JTTMUT/tmp0001.trees
+outfile = ../analyses/JTTMUT/tmp0001.out
+noisy = 3
+seqtype = 2
+model = 2
+aaRatefile = ../analyses/JTTMUT/jones-dcmut.dat
+fix_alpha = 0
+alpha = .5
+ncatG = 4 
+Small_Diff = 0.1e-6
+getSE = 2
+method = 1

@@ -1,0 +1,13 @@
+seqfile = ../analyses/JTTG4F/tmp0001.txt
+treefile = ../analyses/JTTG4F/tmp0001.trees
+outfile = ../analyses/JTTG4F/tmp0001.out
+noisy = 3
+seqtype = 2
+model = 2
+aaRatefile = ../analyses/JTTG4F/jones.dat
+fix_alpha = 0
+alpha = .5
+ncatG = 4
+Small_Diff = 0.1e-6
+getSE = 2
+method = 1
